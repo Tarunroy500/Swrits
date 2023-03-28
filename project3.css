@@ -148,3 +148,142 @@ html,body{
 #h5{
     left: 80%;
 }
+
+
+
+@media (max-width: 767px) {
+    #p1 {
+      font-size: 30px;
+    }
+    #top {
+      width: 70%;
+      left: 15%;
+      top: 10%;
+    }
+    
+    #para {
+      font-size: 14px;
+    }
+    #para1 {
+      font-size: 16px;
+      text-align: center;
+    }
+    #c {
+      position: absolute;
+      top: 80%;
+      right: 2%;
+    }
+    #image {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    #img1, #img2, #img3, #img4, #img5, #img6 {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+    #bottom {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 50px;
+    }
+    .h {
+      font-size: 16px;
+      margin: 5px;
+    }
+  }
+  #login, #sign {
+    width: 200px;
+    height: 50px;
+    font-size: 1rem;
+    /* other desktop styles */
+  }
+  
+  /* Styling for tablet screens */
+  @media only screen and (max-width: 768px) {
+    #login, #sign {
+      width: 150px;
+      height: 40px;
+      font-size: 0.9rem;
+      /* other tablet styles */
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    #p1 {
+      font-size: 30px;
+      left: 4%;
+    }
+  
+    #top {
+      width: 50%;
+      height: auto;
+      left: 6%;
+      top: 13%;
+      font-size: 16px;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    
+  
+    #para {
+      font-size: 14px;
+    }
+  
+    
+  
+    #image {
+      margin-top: 20px;
+    }
+  
+    #img1,
+    #img2,
+    #img3,
+    #img4,
+    #img5,
+    #img6 {
+      width: 100%;
+      height: auto;
+    }
+  
+    #bottom {
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+  
+    .h {
+      width: 40%;
+      margin-bottom: 10px;
+    }
+    #login,
+    #sign {
+      width: 100%;
+      max-width: 100%;
+    }
+    #login input[type="text"],
+    #login input[type="password"],
+    #sign input[type="text"],
+    #sign input[type="password"] {
+      width: 100%;
+      max-width: 100%;
+    }
+    #login button,
+    #sign button {
+      width: 100%;
+      max-width: 100%;
+    }
+    #login p,
+    #sign p {
+      text-align: center;
+    }
+}
+
+ 
+  
+  
